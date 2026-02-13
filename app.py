@@ -103,7 +103,7 @@ config_df = pd.DataFrame({
 # KPI global (simulación de valores actuales para la última versión)
 latest = {
     "Year": years[-1],
-    "Market_Intelligence_Index": sensing_df.loc[sensing_df["Year"]==years[-1], "Market_Intelligence_Index"].values<a href="" class="citation-link" target="_blank" style="vertical-align: super; font-size: 0.8em; margin-left: 3px;">[0]</a>,
+    "Market_Intelligence_Index": sensing_df.loc[sensing_df["Year"] == years[-1], "Market_Intelligence_Index"].values[0],
     "Emerging_Tech_Detection_Time": sensing_df.loc[sensing_df["Year"]==years[-1], "Emerging_Tech_Detection_Time"].values<a href="" class="citation-link" target="_blank" style="vertical-align: super; font-size: 0.8em; margin-left: 3px;">[0]</a>,
     "Time_to_Market_weeks": time_to_market[-1],
     "Co_creation_PercentRevenue": co_creation[-1],
