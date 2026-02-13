@@ -104,7 +104,7 @@ config_df = pd.DataFrame({
 latest = {
     "Year": years[-1],
     "Market_Intelligence_Index": sensing_df.loc[sensing_df["Year"] == years[-1], "Market_Intelligence_Index"].values[0],
-    "Emerging_Tech_Detection_Time": sensing_df.loc[sensing_df["Year"]==years[-1], "Emerging_Tech_Detection_Time"].values<a href="" class="citation-link" target="_blank" style="vertical-align: super; font-size: 0.8em; margin-left: 3px;">[0]</a>,
+    "Emerging_Tech_Detection_Time": sensing_df.loc[sensing_df["Year"] == years[-1], "Emerging_Tech_Detection_Time"].values[0],
     "Time_to_Market_weeks": time_to_market[-1],
     "Co_creation_PercentRevenue": co_creation[-1],
     "Periphery_Deployment_Speed_days": periphery_speed[-1],
